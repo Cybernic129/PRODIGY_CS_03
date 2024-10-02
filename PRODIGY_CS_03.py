@@ -5,8 +5,8 @@ def assess_password_strength(password):
     score = 0
 
     # Check the password length
-    if len(password) < 8:
-        print("Password should be at least 8 characters.")
+    if len(password) < 10:
+        print("Password should be at least 10 characters.")
     else:
         score += 1
 
